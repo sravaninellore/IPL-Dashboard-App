@@ -1,0 +1,115 @@
+/* Write your CSS here */
+.latest-match-details {
+  padding: 0px 35px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: #0f172a;
+  color: #ffffff;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.competing-team {
+  font-size: 30px;
+}
+
+.date {
+  font-size: 24px;
+}
+
+.first-box {
+  margin-right: 20px;
+  width: 70%;
+  text-align: left;
+}
+
+.competing-team-logo {
+  max-width: 200px;
+  max-height: 200px;
+}
+
+.second-box {
+  text-align: right;
+  width: 100%;
+}
+
+.side-heading {
+  font-size: 21px;
+}
+
+.first-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 60%;
+}
+
+@media screen and (min-width: 768px) {
+  .hr-line {
+    display: none;
+  }
+
+  .first-box {
+    width: 48%;
+  }
+
+  .second-box {
+    width: 33%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .latest-match-details {
+    flex-direction: column;
+  }
+
+  .first-section {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0px 25px;
+  }
+
+  .first-box {
+    width: 60%;
+  }
+
+  .latest-match-details {
+    flex-direction: column;
+    padding: 0px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .hr-line {
+    display: block;
+    width: 100%;
+    border: none;
+    height: 3px;
+    background-color: #ffffff33;
+  }
+
+  .competing-team-logo {
+    width: 100px;
+  }
+
+  .competing-team {
+    font-size: 25px;
+  }
+
+  .date {
+    font-size: 22px;
+  }
+
+  .side-heading {
+    font-size: 20px;
+  }
+
+  .second-box {
+    width: 100%;
+    text-align: left;
+    padding: 0px 20px;
+  }
+}
